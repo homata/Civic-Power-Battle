@@ -1,0 +1,126 @@
+# Ignore everything in this directory
+#*
+# Except this file
+!.gitignore
+
+# OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Vim
+*.swp
+
+# Mi
+miproj
+
+# Org-mode
+.org-id-locations
+*_archive
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Eclipse
+.settings
+.buildpath
+.project
+
+# grunt
+grunt
+
+# CodeIgniter
+application/cache/*
+!application/cache/index.html
+!application/cache/.htaccess
+
+application/logs/*
+!application/logs/index.html
+!application/logs/.htaccess
+
+# NetBeans project file
+nbproject/
+
+# MCF
+
+# workin file
+*.orig
+*.00?
+~$*
+
+.metadata/
+.DS_Store
+
+doc/postgresql-9.5.3-A4.pdf
+doc/mcf_qa_*.xlsx
+doc/a5m2/
+doc/jcode/
+
+www/smarty/templates_c/
+
+setup/city_data/*
+!setup/city_data/restore.sh
+
+setup/city_sql/tmp/
+setup/facilities_csv/csv/
+setup/facilities_csv/tmp/
+
+www/.idea/
+
+www/tmp/export/*
+www/tmp/work/*
+www/tmp/params/*
+www/tmp/uploads/*
+www/tmp/tmp/
+
+www/logs/
+*.log
+
+#www/cities/1?/
+#www/cities/2?/
+#www/cities/3?/
+#www/cities/4?/
+*graph_data/
+average.json
+data.json
+facility.json
+
+www/cron/logs/
+*.SAVE/
+
+setup/tmp/
+setup/script/logs/
+setup/script/export/
+
+cities.tar.gz
+cities_data.tar.gz
+
+www/account/vendor/*
+
+setup/.idea/
+__pycache__/
+
+.idea/
+
+00.*/
+
